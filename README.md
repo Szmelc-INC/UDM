@@ -1,4 +1,20 @@
 # UDM ~ Universal Dialog Menu
-> #### Modular design allows for quick and easy modifications in `config.yml` 
-<img src="https://i.imgur.com/SRNLXEp.png" alt="image"> \
-<img src="https://i.imgur.com/e4X9Pyq.png" alt="image">
+## v2 - Now with .json!
+> #### Modular design allows for quick and easy modifications in `config.json` 
+![image](https://github.com/user-attachments/assets/3a5e4f87-96cf-44b5-9b88-e2fea50a62b6)
+
+# Config template
+```json
+{
+  "menu": [
+    {
+      "name": "Option-1",
+      "command": "echo 'Executing Option 1'"
+    },
+    {
+      "name": "Option_2",
+      "command": "echo 'Executing Option 2'"
+    }
+  ]
+}
+```
