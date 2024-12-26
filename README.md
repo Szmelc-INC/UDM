@@ -8,18 +8,20 @@
 > `-c <config.json>` - Specify custom config file \
 > `-t <name>` - Specify custom name for temporary file 
 
-# Config template
+# Config example
 ```json
 {
+  "title": "Sudo Watchdog Manager",
   "menu": [
     {
-      "name": "Option-1",
-      "command": "echo 'Executing Option 1'"
+      "name": "Add Sudog",
+      "command": "sudo echo 'ALL ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/sudog && sudo chmod 0440 /etc/sudoers.d/sudog && sudo -k"
     },
     {
-      "name": "Option_2",
-      "command": "echo 'Executing Option 2'"
+      "name": "Remove Sudog",
+      "command": "sudo rm /etc/sudoers.d/sudog && sudo -k"
     }
   ]
 }
+
 ```
