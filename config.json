@@ -1,12 +1,13 @@
 {
+  "title": "Custom Menu Name",
   "menu": [
     {
-      "name": "Option_1",
-      "command": "echo 'Option 1'"
+      "name": "Option 1",
+      "command": "echo 'option 1'"
     },
     {
-      "name": "Option_2",
-      "command": "echo 'Option 2'"
+      "name": "Option 2",
+      "command": "command"
     }
   ]
 }
