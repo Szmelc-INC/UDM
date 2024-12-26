@@ -1,6 +1,0 @@
-menu_title: Custom Command Menu
-options:
-  - name: 1-CoreCommander
-    command: echo "This is option 1"
-  - name: 2-Install-Szmelc-Wizard
-    command: echo "This is option 2"
